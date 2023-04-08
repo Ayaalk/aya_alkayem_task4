@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../images/Play\ ground.png');
+    background-size:cover;
+}
+.start nav{
+    display: flex;
+    width: 100% ;
+    height: 48px;
+    background-color: #FFFFFF; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+    position: fixed;
+
+}
+ .start .end_logo {
+    display: inline-block;
+ }
+ .left , .center , .right{
+    margin: 10px 20px;
+ }
+ .left span{
+    font-weight: bold;
+    font-size: large;
+ }
+ .left p{
+    font-size: 16px;
+ }
+.center select,a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #938C8C;
+    border:0px;
+}
+.right p {
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C5BCB3;
+}
+.right span {
+    color: #FF8500;
+}
+.Login {
+    font-weight: bold;
+    color: black;
+}
+.Register {
+    color: black;
+}
+
+.second .job {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.second h1 {
+    font-weight: 700;
+    margin-top: 160px;
+    font-size: 24px;
+}
+.second p{
+    margin-top: 18px;
+}
+.second button{
+    padding: 6px 30px;
+    margin-top: 18px;
+    background-color: black;
+    color: white;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top:60px;
+    width: 600px;
+}
+.search .image_border{
+    position: absolute;
+    left: 550px;
+    top: 0px;
+    bottom: 0px;
+}
+.cntainer_search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    position: absolute;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    margin-top: 36px;
+}
+.cards{
+    display: flex;
+    gap: 75px;
+    margin-bottom: 60px;
+}
+.card {
+    border: 0px solid black;
+    margin-top: 30px;
+    background: #FFFFFF;
+
+    box-shadow: 0px 4px 20px rgba(40, 40, 40, 0.15);
+    border-radius: 15px;
+
+
+}
+.head {
+    display: flex;
+}
+.head img{
+    margin: 15px 5px 15px 30px ;
+}
+.head h6{
+    margin-top: 25px;
+}
+.head p{
+    margin-left: 140px;
+    font-size: 8px;
+    margin-top: 25px;
+}
+.body{
+    text-align: start;
+    margin-left: 30px;
+}
+.body h2{
+    margin: 10px 0px 40px;
+}
+.body span{
+    color: #938C8C;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right:  32px;
+
+}
+.info span{
+    color: green;
+    font-weight: bolder;
+}
+.info p{
+    font-size: 8px;
+    margin-top: 30px;
+}
+.card-footer button{
+    padding: 9px 47px;
+    margin: 18px 32px;
+}
+.end{
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 60px;
+}
+
+.job-footer a{
+    display: block;
+}
+.job-footer h1{
+    text-align: center;
+}
+.end .end_privacy .line_privacy{
+    width: 700px;
+    border-bottom: 1px solid white;
+
+}
+.end .end_privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.cards_end{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.part1 h1, .part2 h1 {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.cards_end .card_end {
+    background: none;
+}
+.second .job .cards .card_p1 , .second .job .cards .card_p2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    gap: 50px;
+}
+button , a {
+    cursor: pointer;
+}
